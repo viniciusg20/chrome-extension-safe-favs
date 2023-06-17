@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Safe",
+    "description": "Salve seus links de maneira organizada com o Safe",
+    "version": "0.0.1",
+
+    "_comentarioActions" : "actions serve para --> ",
+    "actions": {
+        "default_icon": "assets/icon.png",
+        "default_popup": "index.html"
+    },
+
+    "_comentarioPermissions" : "permissions --> é uma lista d epermissões que você que dar ",
+    "permissions": [
+
+        "tabs",
+        "storage"
+
+    ],
+    
+    "_comentarioHostPermissions" : "host_permissions --> é uma lista que determina quais sites e partes de site você que que essa extensão tenha permissão de acessar ",
+    "host_permissions": [
+        "<all_urls>"
+       
+
+    ] 
+}
+
